@@ -38,7 +38,7 @@ function App() {
       }
 
       const res = await axios.post(
-        "http://localhost:5000/api/analyze",
+        "https://page-pulse-api-79hs.onrender.com/api/analyze",
         {
           url: website,
         }
